@@ -8,6 +8,7 @@ export default {
         // sans: 'Nunito Sans sans-serif',
       },
       colors: {
+        whiteShed: '#FBFBFB',
         lighttestRed: '#fef0e9',
         red: '#ea5858',
         DarkRed: '#EA5858',

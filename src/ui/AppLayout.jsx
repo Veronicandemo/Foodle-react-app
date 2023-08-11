@@ -1,14 +1,19 @@
 import HomePage from './HomePage';
+import MainSection from './MainSection';
+
 import NavBar from './NavBar';
 
 const AppLayout = () => {
   return (
-    <div className="bg-lighttestRed mx-auto w-[100%] rounded-b-3xl pb-28">
-      <NavBar />
-      <main className="container ml-24">
+    <main className="">
+      <section className="bg-lighttestRed container mx-auto max-w-[100%] rounded-b-3xl pb-28 pl-16 ">
+        <NavBar />
         <HomePage />
-      </main>
-    </div>
+      </section>
+      <section className="mt-52 pl-16">
+        <MainSection />
+      </section>
+    </main>
   );
 };
 

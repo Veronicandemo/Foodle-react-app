@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="ml-24 flex">
+    <nav className=" flex">
       <ul
         role="list"
         className="flex list-none items-center justify-center gap-16 p-5 text-lg font-semibold"
