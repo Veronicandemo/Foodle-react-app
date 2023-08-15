@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: 'Roboto Mono monospace',
-        // sans: 'Nunito Sans sans-serif',
+        // sans: 'Roboto Mono monospace',
+        // sans: 'Nunito  sans-serif',
       },
       colors: {
         whiteShed: '#FBFBFB',
