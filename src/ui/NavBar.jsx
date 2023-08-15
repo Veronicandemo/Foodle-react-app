@@ -7,7 +7,7 @@ const NavBar = () => {
         role="list"
         className="flex list-none items-center justify-center gap-16 p-5 text-lg font-semibold"
       >
-        <li className="text-darkGrey mr-20">
+        <li className="mr-20 text-darkGrey">
           <Link to="/" className="text-4xl font-extrabold tracking-wide">
             Foodle
           </Link>
@@ -27,10 +27,11 @@ const NavBar = () => {
         <li className=" hover:text-darkGrey">
           <NavLink to="/about">About us</NavLink>
         </li>
-        <li className="ml-20">
+        <li className="ml-20 text-DarkRed ">
           <Link>Login</Link>
+          {/* </button> */}
         </li>
-        <li>
+        <li className="text-DarkRed">
           <Link>Sign Up</Link>
         </li>
       </ul>

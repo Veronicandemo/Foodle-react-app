@@ -6,13 +6,14 @@ const BestItem = ({ img, name }) => {
     <div className="mt-16 flex flex-col items-center justify-center gap-5 text-xl">
       <img src={img} alt="best item" width={'350rem'} height={'350rem'} />
       <p>{name}</p>
-      <button className="text-DarkRed flex items-center justify-center gap-2 font-medium">
+      <button className="flex items-center justify-center gap-2 font-medium text-DarkRed">
         Order Now
         <MdOutlineArrowForwardIos />
       </button>
     </div>
   );
 };
+
 BestItem.propTypes = {
   img: PropTypes.node.isRequired,
   name: PropTypes.string,

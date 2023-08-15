@@ -1,9 +1,13 @@
-import AppLayout from "./AppLayout";
+import AppLayout from './AppLayout';
+import Footer from './Footer';
 
 const Home = () => {
+  // const sixMenus = useLoaderData();
   return (
-    <div className="flex">
+    <div className="">
       <AppLayout />
+
+      <Footer />
     </div>
   );
 };

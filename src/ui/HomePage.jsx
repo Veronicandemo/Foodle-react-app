@@ -1,5 +1,6 @@
 import Benefit from './Benefit';
 import { RiHandbagLine } from 'react-icons/ri';
+import { HiPlay } from 'react-icons/hi';
 
 const HomePage = () => {
   const benefits = [
@@ -46,10 +47,14 @@ const HomePage = () => {
                   <RiHandbagLine size={'34px'} />
                 </span>
               </button>
-              <button>play btn</button>
-              <p className="text-xl font-semibold text-darkGrey">
-                How to order
-              </p>
+              <div>
+                <HiPlay
+                  size={'64px'}
+                  className="rounded-full  text-DarkOrange shadow-xl"
+                />
+              </div>
+
+              <p className="text-xl font-bold text-darkGrey">How to order</p>
             </div>
           </div>
 
