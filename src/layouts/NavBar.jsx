@@ -28,11 +28,11 @@ const NavBar = () => {
           <NavLink to="/about">About us</NavLink>
         </li>
         <li className="ml-20 text-DarkRed ">
-          <Link>Login</Link>
+          <Link to="/login">Login</Link>
           {/* </button> */}
         </li>
         <li className="text-DarkRed">
-          <Link>Sign Up</Link>
+          <Link to="/sign up">Sign Up</Link>
         </li>
       </ul>
     </nav>

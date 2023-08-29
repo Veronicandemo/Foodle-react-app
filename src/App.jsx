@@ -1,12 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Home from './ui/Home';
-import Menu, { loader as menuLoader } from './features/menu/Menu';
+import Home from './layouts/Home';
+import Menu, { loader as menuLoader } from './components/menu/Menu';
 import Services from './pages/Services';
 import About from './pages/About';
 import Offer from './pages/Offer';
 import { RouterProvider } from 'react-router';
-import LogIn from './features/user/LogIn';
-import SignUp from './features/user/SignUp';
+import LogIn from './components/user/LogIn';
+import SignUp from './components/user/SignUp';
 const router = createBrowserRouter([
   {
     path: '/',
